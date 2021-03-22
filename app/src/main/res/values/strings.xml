@@ -1,0 +1,7 @@
+<resources>
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2FtZWVyMTgtZGV2IiwiYSI6ImNrMzM4eGo3NzA5c3ozZ255aXRyaDdmdTEifQ.lNnWjJQxZSXiOAE7_Hjlgw</string>
+    <string name="app_name">Smart Travel Guide</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="api_key">e8cc34b82160878e27b76ffe49147703</string>
+</resources>

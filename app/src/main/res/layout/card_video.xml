@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <WebView
+        android:id="@+id/webVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:ignore="WebViewLayout">
+    </WebView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_below="@+id/webVideoView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="Video Title"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desp"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_below="@+id/webVideoView"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="Every family should have a lifesaver. To become a lifesaver you need to learn CPR.Training in CPR for retired. Polytechnic employees."
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>

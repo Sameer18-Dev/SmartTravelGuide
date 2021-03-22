@@ -1,0 +1,2 @@
+rootProject.name='MAPS_API'
+include ':app'

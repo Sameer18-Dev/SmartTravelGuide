@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sameer18dev.smarttravelguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/smarttravellogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/smarttravellogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:label="Tourist Spots"
+            android:name="com.sameer18dev.smarttravelguide.TouristSpotActivity">
+
+
+        </activity>
+        <activity
+            android:label="City Videos"
+            android:name="com.sameer18dev.smarttravelguide.VideoActivity">
+
+        </activity>
+        <activity
+            android:label="Weather Report"
+            android:name="com.sameer18dev.smarttravelguide.CityList"></activity>
+
+        <activity
+            android:label="Smart Travel Guide"
+            android:name="com.sameer18dev.smarttravelguide.Dashboard">
+
+
+        </activity>
+
+        <activity android:name="com.sameer18dev.smarttravelguide.MapActivity">
+
+        </activity>
+
+        <activity android:name="com.sameer18dev.smarttravelguide.splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
